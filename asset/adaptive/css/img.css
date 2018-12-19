@@ -1,0 +1,61 @@
+.im-0 {
+    background-image: url(../img/block/full-background.png);
+}
+
+.im-3 {
+    background-image: url(../img/block/line.png);
+}
+
+.im-4 {
+    background-image: url(../img/block/line-bt.png);
+}
+
+.im-5 {
+    background-image: url(../img/block/left-gr.png);
+}
+
+.im-5-fix {
+    background-image: url(../img/block/left-gr-fix.png);
+}
+
+.im-6 {
+    background-image: url(../img/block/right-gr.png);
+}
+
+.im-6-fix {
+    background-image: url(../img/block/right-gr-fix.png);
+}
+
+.im-24 {
+    background-image: url(../img/block/down_button.png);
+}
+
+.im-24a {
+    background-image: url(../img/block/up_button.png);
+}
+
+.im-25 {
+    background-image: url(../img/block/line-sl.png);
+}
+
+.im-26 {
+    background-image: url(../img/block/line-bt-sl.png);
+}
+
+.im-27 {
+    background-image: url(../img/block/background-menu.png);
+}
+
+.im-01 {
+    background-image: url(../img/block/full-background.png);
+    background-repeat: repeat-x;
+    background-position: top center;
+}
+
+.im-60 {
+    width: 100%;
+    height: 25px;
+    background-image: url(../img/block/cracks.jpg);
+    background-repeat:no-repeat;
+    background-position: center center;
+}

@@ -1,0 +1,26 @@
+{
+  "name": "vendor_name/package_name",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "author's name",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "slim/slim": "2.6.2",
+    "sorskod/db": "v1.1.0",
+    "quietasice/phpfastcache": "dev-master",
+    "quietasice/slim-debugbar": "dev-master",
+    "phpfastcache/phpfastcache": "4.3.16",
+    "nesbot/carbon": "^1.24",
+    "illuminate/support": "5.5.*"
+  },
+  "autoload":{
+    "psr-0":{
+      "" : ""
+    }
+  }
+}

@@ -1,0 +1,231 @@
+a:visited {
+    text-decoration: none;
+    color: #7c6547;
+}
+
+a:link {
+    text-decoration: none;
+    color: #7c6547;
+}
+
+.header {
+    height: 258px;
+    background: url(../image/header.png) no-repeat top center;
+}
+
+.footer, .footer-body {
+    height: 81px;
+    bottom: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+}
+
+.kp-class-all {
+    background-color: #ece6d8;
+    padding: 0;
+    margin-top: 0;
+    width: 1018px;
+}
+
+.kp-border .border-line-top {
+    top: 0;
+    height: 25px;
+}
+
+.kp-border .border-line-right {
+    right: 0;
+}
+
+.kp-border .border-line-left {
+    left: 0;
+}
+
+.im-60 {
+    margin-top: 0;
+}
+
+.menu-bg {
+    background: url(../image/menu-hr_03.png) repeat-y right;
+}
+
+#sidebar.menu-bg {
+    background-image: url(../../adaptive/img/block/left-gr-fix.png), url(../../adaptive/img/block/right-gr-fix.png);
+    background-repeat: repeat-y, repeat-y;
+    background-position: left, right;
+}
+
+.menu ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.menu ul li.hr {
+    background: url("../image/menu-hr2.png") no-repeat 0 -17px;
+    width: 222px;
+    height: 19px;
+    z-index: 3;
+    position: relative;
+}
+
+.menu ul li {
+    position: relative;
+    height: 40px;
+}
+
+.menu ul li a {
+    color: #B40404;
+    position: relative;
+    z-index: 2;
+    line-height: 38px;
+    display: block;
+    text-decoration: none;
+}
+
+.menu ul li div.bg {
+    display: none;
+    background: url("../image/menu-active-fix.png") no-repeat 0 -16px;
+    position: absolute;
+    height: 80px;
+    width: 201px;
+    top: -19px;
+    right: -27px;
+    z-index: 1;
+}
+
+.menu li.active a, .menu li:hover a {
+    font-weight: bold;
+}
+
+.menu li.active div.bg, .menu li:hover div.bg {
+    display: block;
+}
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #495057;
+    background: url(https://i.oldbk.com/i/hr.gif) no-repeat bottom;
+}
+
+.nav-tabs .nav-link {
+    border: none;
+}
+
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.hr {
+    background: url(https://i.oldbk.com/i/hr.gif) no-repeat;
+    height: 5px;
+}
+
+.rate-list tr.search-row {
+    border: none !important;
+}
+
+.rate-list.table thead th {
+    border-bottom: none;
+}
+
+.rate-list thead {
+    background: url(https://i.oldbk.com/i/hr.gif) no-repeat top, url(https://i.oldbk.com/i/hr.gif) no-repeat bottom;
+    height: 5px;
+}
+
+.sidebar {
+    height: 100%;
+    width: 300px;
+    max-width: 450px;
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    display: none;
+    background: #f1ebdb;
+}
+
+.sidebar.toggled {
+    display: block;
+}
+
+.sidebar .kp-bk-left {
+    width: 60px;
+    height: 100%;
+}
+
+#sidebar .menu li.active div.bg, #sidebar .menu li:hover div.bg {
+    display: none;
+}
+
+.overflow-x-scroll {
+    overflow-x: auto;
+}
+
+#sidebarCollapse {
+    cursor: pointer;
+    position: -webkit-sticky;
+    position: sticky;
+    left: 5px;
+    top: 0;
+    z-index: 5;
+}
+
+#sidebarCollapse.opened {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+#mainContent img {
+    max-width: 100%;
+    height: auto;
+}
+
+.break-all {
+    word-break: break-all;
+}
+
+#scrollUp {
+    bottom: 20px;
+    right: 20px;
+    background-color: #555;
+    color: #fff;
+    font-size: 12px;
+    font-family: sans-serif;
+    text-decoration: none;
+    opacity: .9;
+    padding: 5px 10px;
+    -webkit-transition: background 200ms linear;
+    -moz-transition: background 200ms linear;
+    -o-transition: background 200ms linear;
+    transition: background 200ms linear;
+    -webkit-backface-visibility: hidden;
+}
+
+#scrollUp:hover {
+    background-color: #000;
+}
+
+#description .card{
+    border: none;
+    padding: 0;
+    background: none;
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 100%;
+        max-width: none;
+    }
+}
